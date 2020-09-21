@@ -1,24 +1,37 @@
-# README
+# Ruby Scraper
+> This project is a back end mock of the [reddit](https://www.reddit.com/) website using Ruby On Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
+- Ruby On Rails
+- Rubocop
+- SQLite3
 
-Things you may want to cover:
+## Requirements
+- User, Post and Comment should be validated
+- The project needs to create One-To-Many relationship between User and Post
+- The project needs to create One-To-Many relationship between User and Comment
+- The project needs to create One-To-Many relationship between Post and Comment
 
-* Ruby version
+## Getting Started
+- Clone the project in to your computer using `git clone https://github.com/DejazmachMolla/micro-reddit.git` 
+- `cd` into the `micro-reddit` folder
+- run `bundle install`
+- run `rails c` to open the rails console
+- Check relationships between Entities according to the Requirements above
 
-* System dependencies
 
-* Configuration
+## Authors
 
-* Database creation
+:bust_in_silhouette: **Dejazmach Molla**
 
-* Database initialization
+- Github: [@DejazmachMolla](https://github.com/DejazmachMolla)
+- Twitter: [@DJATSS](https://twitter.com/DJATSS)
+- Linkedin: [Dejazmach Molla](https://www.linkedin.com/in/dejazmach-getachew-027aabaa/)
 
-* How to run the test suite
+## Show your support
 
-* Services (job queues, cache servers, search engines, etc.)
+Give a ⭐️ if you like this project!
 
-* Deployment instructions
+## Acknowledgments
 
-* ...
+- Microverse
